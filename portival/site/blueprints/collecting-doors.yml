@@ -1,0 +1,44 @@
+  title: Collecting Doors
+pages:
+  template:
+    - module.accordion
+    - module.section-img
+    - module.section-img-text
+    - module.contact
+    - module.gallery
+    - module.section-video
+    - module.section-cta
+  url: true
+
+files:
+  fields:
+    strasse:
+      label: Strasse
+      type: text
+    nummer:
+      label: Hausnummer
+      type: text
+    date:
+      label: Uploaddatum
+      type: date
+  title:
+    label: Title
+    type:  text
+    required: false
+
+  sortable:
+    label: Sortable
+    type:  sortable
+
+    sortable: true
+
+    layout:  base
+    variant: null
+
+    limit: false
+
+    parent: null
+    prefix: null
+
+    options:
+      limit: false

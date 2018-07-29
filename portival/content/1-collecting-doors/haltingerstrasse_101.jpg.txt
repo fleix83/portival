@@ -1,0 +1,9 @@
+Strasse: Haltingerstrasse
+
+----
+
+Nummer: 101
+
+----
+
+Sort: 2

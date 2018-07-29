@@ -1,0 +1,9 @@
+title: Gallery module
+pages: false
+files: true
+icon: list
+
+fields:
+  titel:
+    label: Titel
+    type: text

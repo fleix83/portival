@@ -1,0 +1,21 @@
+Image-left: 
+
+----
+
+Image-right: 
+
+----
+
+Titel: Portival
+
+----
+
+Text: 
+
+----
+
+Justify: 
+
+----
+
+Title: Gallery

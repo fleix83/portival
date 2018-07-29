@@ -1,0 +1,9 @@
+Strasse: Sperrstrasse
+
+----
+
+Nummer: 104
+
+----
+
+Sort: 23

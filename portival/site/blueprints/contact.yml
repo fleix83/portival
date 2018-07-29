@@ -1,0 +1,22 @@
+title: Contact 
+pages: true
+files: true
+icon: list
+
+
+fields:
+ background:
+   label: Hintergrund
+   type: select
+   options:
+     lightgrey: Lightgrey
+     lightsalmon: Lightsalmon
+     turkise: Türkis
+   
+ formtitle:
+   label: Titel
+   type: text
+   
+ formsubtitel:
+   label: Subtitel
+   type: text

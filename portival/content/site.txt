@@ -1,0 +1,41 @@
+Title: Portival
+
+----
+
+Author: Felix Weissheimer
+
+----
+
+Description: Collecting Doors
+
+----
+
+Copyright: © 2018 WEISSHEIMER webservices
+
+----
+
+Footer-1: 
+
+----
+
+Footer-2: ###PORTIVAL.ML
+
+----
+
+Footer-3: 
+
+----
+
+Background: wal_logo_transparent_780x364.png
+
+----
+
+Keywords: doors,türen,tür,türe,portes,porta,door
+
+----
+
+Logo: logo_transparent.svg
+
+----
+
+Alert: Subscribe to our newsletter

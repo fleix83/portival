@@ -1,0 +1,29 @@
+title: Contact module
+pages: false
+files: true
+icon: list
+
+
+fields:
+ background:
+   label: Händlerformular Hintergrund
+   type: select
+   options:
+     lightgrey: Lightgrey
+     lightsalmon: Lightsalmon
+     turkise: Türkis
+     bordeaux: Bordeaux
+     green: Green
+     contactbrand: Wood & Luxury Gold
+   
+ formtitle:
+   label: Händlerformular Titel
+   type: text
+   
+ formsubtitle:
+   label: Händlerformular Subtitel
+   type: text
+
+
+    
+ 

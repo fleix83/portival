@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?portival\.ml [NC]
+RewriteCond %{REQUEST_URI} !^/portival/.*$
+RewriteRule ^(.*)$ /portival/$1

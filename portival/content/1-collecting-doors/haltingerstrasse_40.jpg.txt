@@ -1,0 +1,9 @@
+Strasse: Haltingerstrasse
+
+----
+
+Nummer: 40
+
+----
+
+Sort: 4

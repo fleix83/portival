@@ -1,0 +1,13 @@
+Background: turkise
+
+----
+
+Formtitle: Activation Link
+
+----
+
+Formsubtitel: Thanks for subscribing! Please confirm the activation-link in your email.
+
+----
+
+Title: activation-newsletter

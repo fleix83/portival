@@ -1,0 +1,13 @@
+Background: turkise
+
+----
+
+Formtitle: Thank you
+
+----
+
+Title: Thank you
+
+----
+
+Formsubtitel: Your reseller account request will be verified.

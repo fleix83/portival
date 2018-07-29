@@ -1,0 +1,13 @@
+Background: turkise
+
+----
+
+Formtitle: That's it
+
+----
+
+Formsubtitel: You are now receiving our periodical newsletter
+
+----
+
+Title: Confirmation Newsletter

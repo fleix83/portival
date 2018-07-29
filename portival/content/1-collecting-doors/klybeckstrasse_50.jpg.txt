@@ -1,0 +1,9 @@
+Strasse: Klybeckstrasse
+
+----
+
+Nummer: 50
+
+----
+
+Sort: 12

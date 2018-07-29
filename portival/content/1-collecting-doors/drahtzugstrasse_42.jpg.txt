@@ -1,0 +1,9 @@
+Strasse: Drahtzugstrasse
+
+----
+
+Nummer: 42
+
+----
+
+Sort: 3

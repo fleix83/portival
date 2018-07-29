@@ -1,0 +1,12 @@
+title: Section Video module
+pages: false
+files: true
+icon: list
+
+fields:
+  titel:
+    label: Titel
+    type: tags  
+  videolink:
+     label: Youtube Link
+     type: text
