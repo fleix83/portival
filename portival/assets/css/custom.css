@@ -103,7 +103,6 @@ button a:visited {
 
 @media (max-width: 575px) {
 	.navbar {
-		display: flex;
 		justify-content: center;
 	}
 }
