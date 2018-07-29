@@ -10,7 +10,7 @@
     </div>
   </div>
 
-<div class="row list col-lg-12 d-flex flex-column flex-wrap justify-content-lg-center justify-content-md-center justify-content-sm-center justify-content-center align-items-start m-0 p-0">
+<div class="row list col-lg-12 d-flex flex-wrap justify-content-lg-center justify-content-md-center justify-content-sm-center justify-content-center m-0 p-0">
 
 <!-- Gallery Logik -->
 <?php foreach($page->images()->sortBy('date', 'desc') as $image): ?>

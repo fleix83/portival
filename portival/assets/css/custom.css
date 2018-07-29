@@ -1,4 +1,4 @@
-/***CUSTOM CSS *****/
+/**** CUSTOM CSS *****/
 
 
 body {
@@ -9,10 +9,7 @@ body {
 }
 
 
-
-
-/*FONTS */
-
+/* FONTS */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Josefin Sans', sans-serif; /* font-family: 'Merriweather Sans', sans-serif; */
 	color: black;
@@ -52,7 +49,7 @@ h4 {
 
 a {
 	color; black;
-	border-bottom: 3px solid #ffffff;
+	border-bottom: 0px solid #ffffff;
 }
 
 a:hover {
@@ -98,94 +95,126 @@ button a:visited {
 	color: white;
 }
 
-
-
-/* BACKGROUND COLORS */
-
-.lightgrey {
-	background: lightgrey;
-}
-
-.lightsalmon {
-	background: lightsalmon;
-}
-
-.turkise {
-	background: #67fecb;
-}
-
-.bordeaux {
-	background: #d33e5c;
-}
-
-.green {
-	background: #06e900;
-}
-
-.contactbrand {
-	background: #bda853;
-}
-
-
-/* BUTTONS OVERRIDES */
-
-.btn-hero {
-  color: #fff;
-  background-color: #33ccff;
-  border-color: #33ccff;
-}
-
-.btn-hero:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-}
-
-
-
-/*NAV */
-
-.navbar {
-	margin-bottom: 40px;
-}
-
-.navbar a {
-	color: black;
-	font-weight: 800;
-	border-bottom: 3px solid transparent;
-	transition: 0.4s;
-}
-
-.navbar h4 a:hover {
-	border-bottom: 3px solid black;
-	transition: 0.4s;
-}
-
-
+/* NAVBAR */
 img.brand {
 	width: 100px;
-	height: auto;
-	margin: 30px 0px;
-	border-bottom: hidden;
 }
 
-.topbar {
-	width: 100%;
-	height: 50px;
-	background: white;
+/* GALLERY */
+section.gallery {
+	margin: -30px 0px 150px 0px;
+	min-height: 2000px;
 }
 
+.component {
+	max-width: 240px;
+	min-width: 220px;
+  background: #d3d3d3;
+  border-radius: 10px;
+  position: relative;
+	margin: 20px;
+  box-shadow: 0 10px 30px rgba(70,70,70,.5);
+	overflow: hidden;
+	transition: 0.3s;
+}
 
+.component:hover {
+	box-shadow: 0 10px 30px rgba(70,70,70,.5);
+	margin: 30px;
+	transition: 0.3s;
+}
 
+.left {
+	height: 40px;
+	width: 70%;
+	background: #d3d3d3;
+	padding: 5px;
+	color: white;
+	font-size: 1.1rem;
+	font-weight: 600;
+	border-top: 4px solid #e8e8e8;
+	border-right: 4px solid #e8e8e8;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	border-radius: 0px 0px 0px 10px;
+}
 
+.right {
+	height: 40px;
+	width: 30%;
+	background: #d3d3d3;
+	color: white;
+	font-size: 2rem;
+	font-weight: 600;
+	border-top: 4px solid #e8e8e8;
+	padding: 5px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	border-radius: 0px 0px 10px 0px;
+	text-align: center;
+}
 
+.component img {
+	width: 240px;
+	object-fit: none;
+	object-position: 50% 50%;
+	filter: brightness(100%);
+}
 
+.component h2 {
+	font-size: 1.5rem;
+	position: absolute;
+	top: 8px;
+	left: 20px;
+}
+
+.component h5 {
+	font-size: 1.0rem;
+	position: absolute;
+	top: 12px;
+	left: 13px;
+}
+
+.searchnav {
+	margin-bottom: 50px;
+}
+button.btn-sort {
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 12px;
+	background: lightgrey;
+	padding: 5px 15px 5px 15px;
+	text-decoration: none;
+	border: none;
+	transition: 0.5s;
+}
+
+button.btn-sort:hover {
+		background: grey;
+		transition: 0.5s;
+}
+
+input.search {
+		border-radius: 28px;
+		border: none;
+		color: lightgreen;
+		padding-left: 20px;
+}
+
+input.search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgreen;
+    opacity: 1; /* Firefox */
+}
 
 
 
 
 /* FOOTER */
-
 .footer {
 	width: 100%;
 	background: #ffffff;
@@ -279,350 +308,4 @@ footer a {
 .contact-brand {
 	float: left;
 	width: 60%;
-}
-
-
-/* ALERT NEWSLETTER */
-
-.alert {
-  background: #FFF123;
-  background-image: url(/swisstogo/content/subscribe_background.jpg);
-
-  width: 100%;
-  padding: 40px;
-  position: relative;
-  font-weight: 600;
-  z-index: 999;
-}
-
-@media (max-width: 576px) {
-  .alert {
-	padding-top: 60px;
-  }
-}
-
-.alert h2 {
-	  color: white;
-}
-
-.alert form input.hidden {
-	position:absolute;
-	z-index: -100;
-	left:-6000px;
-}
-
-.close_btn {
-	color: #000;
-	padding: 15px 0px 5px 10px;
-	display: block;
-	position: absolute;
-	top: 30px;
-	right: 40px;
-	border-bottom: hidden;
-}
-
-@media (max-width: 576px) {
-  .close_btn {
-	position:absolute;
-    top: 10px;
-	right: 15px;
-  }
-}
-
-.content {
-  padding: 40px;
-}
-
-
-
-
-
-
-
-.teaser {
-	background: white;
-	padding: 0;
-	margin: 0px 0px 40px 0px;
-}
-
-.tsr_content {
-	float: left;
-	padding: 30px;
-}
-
-.tsr_image {
-	float: left;
-}
-.image-right {
-	float: right;
-}
-
-.box {
-	margin-top: -50px;
-}
-
-.table {
-	margin: 100 0;
-}
-
-table {
-	color: black;
-	width: 100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-th {
-	background: lightgreen;
-}
-
-
-
-/* ACCORDION SNIPPET */
-
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-    background-color: lightgreen;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-
-.accordion:first-of-type {
-	border-radius: 10px 10px 0px 0px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.accordion.active, .accordion:hover {
-    background-color: red;
-		color: white;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 0 18px;
-    background-color: lightblue;
-    overflow: hidden;
-		max-height: 0;
-		transition: max-height 0.2s ease-out;
-}
-.panel:last-of-type {
-border-radius: 0px 0px 10px 10px;
-}
-
-
-section.hero {
-	margin: 50px 0px;
-}
-
-.section-image__image {
-	margin: 10px 0px;
-}
-
-.section-image__text {
-	margin: 0px 0px;
-}
-
-h2.section-image--h2 {
-	color: black;
-	font-size: 22px;
-	font-weight: 700;
-}
-
-p.section-image--p {
-	color: black;
-	font-size: 22px;
-	font-weight: 300;
-	line-height: 26px;
-}
-
-
-/* SECTION IMAGE MODULE */
-
-
-/* SECTION BUY NOW MODULE */
-section.cta {
-	padding: 60px;
-}
-
-
-/* SECTION CONTACT MODULE */
-
-.contact {
-	padding: 60px 0px;
-}
-
-.contact:hover {
-	background: lightblue;
-		 background-image: url(/swisstogo/content/subscribe_background.jpg);
-	transition: 0.3s;
-}
-
-.contactbutton {
-	cursor: pointer;
-}
-
-section.contact h3 {
-	margin-top: 50px;
-	color: black;
-	font-weight: 800;
-}
-
-section.contact h4 {
-	margin: 10px 0px 50px 0px;
-	color: black;
-}
-
-section.contact a {
-	color: black;
-	border-bottom: 3px solid white;
-}
-
-.contact label {
-	color: black;
-	font-size: 0.8rem;
-	text-transform: uppercase;
-	font-style: italic;
-	margin: 10px 0px 2px 0px;
-}
-
-main.contactpanel {
-	display: none;
-}
-
-
-
-/* UNIFORM */
-
-.uniform__potty {
-    position: absolute;
-    left: -9999px;
-}
-
-figure.video {
-	height: 600px;
-}
-
-/* GALLERY */
-.list {
-		max-height: 3000px;
-}
-
-section.gallery {
-	margin: -30px 0px 150px 0px;
-	min-height: 2000px;
-}
-
-.component {
-	max-width: 240px;
-	min-width: 220px;
-  background: #d3d3d3;
-  border-radius: 10px;
-  position: relative;
-	margin: 20px;
-  box-shadow: 0 10px 30px rgba(70,70,70,.5);
-	overflow: hidden;
-	transition: 0.3s;
-}
-
-.component:hover {
-	box-shadow: 0 10px 30px rgba(70,70,70,.5);
-	margin: 30px;
-	transition: 0.3s;
-}
-
-.left {
-height: 40px;
-width: 70%;
-background: #d3d3d3;
-padding: 5px;
-color: white;
-font-size: 1.1rem;
-font-weight: 600;
-border-top: 4px solid #e8e8e8;
-border-right: 4px solid #e8e8e8;
-position: absolute;
-bottom: 0px;
-left: 0px;
-border-radius: 0px 0px 0px 10px;
-}
-
-.right {
-height: 40px;
-width: 30%;
-background: #d3d3d3;
-color: white;
-font-size: 2rem;
-font-weight: 600;
-border-top: 4px solid #e8e8e8;
-padding: 5px;
-position: absolute;
-bottom: 0px;
-right: 0px;
-border-radius: 0px 0px 10px 0px;
-text-align: center;
-}
-
-.component img {
-	width: 240px;
-	object-fit: none;
-	object-position: 50% 50%;
-}
-
-
-.component h2 {
-	font-size: 1.5rem;
-	position: absolute;
-	top: 8px;
-	left: 20px;
-}
-
-.component h5 {
-	font-size: 1.0rem;
-	position: absolute;
-	top: 12px;
-	left: 13px;
-}
-
-.searchnav {
-	margin-bottom: 50px;
-}
-button.btn-sort {
-	-webkit-border-radius: 28;
-	-moz-border-radius: 28;
-	border-radius: 28px;
-	font-family: Arial;
-	color: #ffffff;
-	font-size: 12px;
-	background: lightgrey;
-	padding: 5px 15px 5px 15px;
-	text-decoration: none;
-	border: none;
-	transition: 0.5s;
-}
-
-button.btn-sort:hover {
-		background: grey;
-		transition: 0.5s;
-}
-
-input.search {
-		border-radius: 28px;
-		border: none;
-		color: lightgreen;
-		padding-left: 20px;
-}
-
-input.search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: lightgreen;
-    opacity: 1; /* Firefox */
 }
