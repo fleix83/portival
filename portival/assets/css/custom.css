@@ -101,7 +101,7 @@ button a:visited {
 	justify-content: space-between;
 }
 
-@media (max-width: 575px) {
+@media (min-width: 576px) {
 	.navbar {
 		justify-content: center;
 	}
