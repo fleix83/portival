@@ -174,7 +174,6 @@ section.gallery {
 	width: 240px;
 	object-fit: none;
 	object-position: 50% 50%;
-	filter: brightness(100%);
 }
 
 .component h2 {
