@@ -96,10 +96,24 @@ button a:visited {
 }
 
 /* NAVBAR */
+.navbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 575px) {
+	.navbar {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+
 img.brand {
 	width: 100px;
 	margin-bottom: 60px;
 }
+
 
 /* GALLERY */
 section.gallery {
